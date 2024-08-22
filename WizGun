@@ -1,0 +1,178 @@
+{
+    "name": "Wizard with a Gun",
+    "description": "An Opera GX mod of the game Wizard with a Gun that was made by a teenager at four in the morning on a school night.",
+    "developer":
+    {
+        "name": "AllisterTheWizard"
+    },
+    "icons":
+    {
+        "512": "wizgun.jpg"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/Heavytread.mp3"
+            ],
+            "browser_sounds":
+            {
+                "CLICK":
+                [
+                    "sound/click.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sound/hala.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sound/hala.mp3"
+                ],
+                "HOVER":
+                [
+                    "sound/audio.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sound/audio.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sound/click.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sound/sondefekt.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sound/sound.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/hala.mp3"
+                ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/hala.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/sound.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sound/sondefekt.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sound/sondefekt.mp3"
+                ]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/wbackspace.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/wbackspace.mp3"
+                ],
+                "TYPING_LETTER":
+                [
+                    "keyboard/sondefekt.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/wbackspace.mp3"
+                ]
+            },
+            "page_styles":
+            [
+                {
+                    "css":
+                    [
+                        "webmodding/opera.css"
+                    ],
+                    "matches":
+                    [
+                        "https://*.opera.com/*"
+                    ]
+                }
+            ],
+            "shaders":
+            {
+                "Matrix green":
+                {
+                    "path": "shader/matrix.txt"
+                },
+                "Wave":
+                {
+                    "animation":
+                    {
+                        "duration": 60,
+                        "steps": 3600
+                    },
+                    "path": "shader/wave.txt"
+                }
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 360,
+                        "s": 96,
+                        "l": 40
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 24,
+                        "s": 41,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 360,
+                        "s": 95,
+                        "l": 52
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 24,
+                        "s": 37,
+                        "l": 16
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/wizars.gif",
+                    "text_color": "#FFB3FA",
+                    "text_shadow": "#FF33F1"
+                },
+                "light":
+                {
+                    "image": "wallpaper/wizars.gif",
+                    "first_frame": "wallpaper/wizars.gif",
+                    "text_color": "#8A0000",
+                    "text_shadow": "#660000"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
